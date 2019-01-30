@@ -9,5 +9,8 @@ fec_nac = int(input("ingresa tu anio de nacimiento"))
 edad = FEC_ACT - fec_nac
 
 print("Tu edad es {}".format(edad))
-
+if edad >= 18:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
 
